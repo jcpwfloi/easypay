@@ -6,17 +6,21 @@ Node.js v7+
 ## API Interface
 
 * Web Payment
-  * amount: [String] Transaction amount (formatted "0.01")
-  * name: [String] Product Name
-  * description: [String] Product Description
-  * return\_url: [String] Return URL
-  * notify\_url: [String] Alipay official callback API
-  * out\_trade\_no: [String] Merchant-side identifier
+| Parameter | Type | Usage |
+| ---- | ---- | ---- |
+| amount | String | Transaction amount (formatted "0.01") |
+| name | String | Product Name |
+| description | String | Product Description |
+| return\_url | String | Return URL |
+| notify\_url | String | Alipay official callback API |
+| out\_trade\_no | String | Merchant-side identifier |
 
 * Refund
-  * refund\_amount: [String] Refund amount (formatted "0.01")
-  * trade\_no: [String] Either fill in trade\_no or out\_trade\_no to make it work
-  * out\_trade\_no: [String] Use merchant-side identifier to signal a refund
+| Parameter | Type | Usage |
+| ---- | ---- | ---- |
+| refund\_amount | String | Refund amount (formatted "0.01") |
+| trade\_no | String | Either fill in trade\_no or out\_trade\_no to make it work |
+| out\_trade\_no | String | Use merchant-side identifier to signal a refund |
 
 ## Example
 
