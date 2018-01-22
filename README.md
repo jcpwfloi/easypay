@@ -28,7 +28,7 @@ Node.js v7+
 
 * Web Payment
 
-```
+```javascript
 var fs = require('fs');
 var alipay = require('./lib')
 
@@ -46,7 +46,7 @@ console.log(Alipay.webPayment({
 
 * Refund
 
-```
+```javascript
 var fs = require('fs');
 var alipay = require('./lib')
 
