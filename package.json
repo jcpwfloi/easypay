@@ -1,0 +1,13 @@
+{
+  "name": "easypay",
+  "version": "1.0.0",
+  "description": "Node.js Alipay SDK",
+  "main": "index.js",
+  "repository": "https://github.com/jcpwfloi/easypay",
+  "author": "arcGravitus",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^3.0.2",
+    "request": "^2.83.0"
+  }
+}
