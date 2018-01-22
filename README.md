@@ -6,6 +6,7 @@ Node.js v7+
 ## API Interface
 
 * Web Payment
+
 | Parameter | Type | Usage |
 | ---- | ---- | ---- |
 | amount | String | Transaction amount (formatted "0.01") |
@@ -16,6 +17,7 @@ Node.js v7+
 | out\_trade\_no | String | Merchant-side identifier |
 
 * Refund
+
 | Parameter | Type | Usage |
 | ---- | ---- | ---- |
 | refund\_amount | String | Refund amount (formatted "0.01") |
